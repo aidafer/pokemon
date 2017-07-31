@@ -50,7 +50,7 @@ nav {
 .btn-menu {
   width: 500px;
   border: none;
-  padding: 60px;
+  padding: 40px;
 }
 
 @media (min-width: 768px) {
@@ -63,5 +63,8 @@ nav {
     justify-content: space-around;
     list-style: none;
     width: 70%;
+    }
+  .nav-small-show{
+    display: none;
     }
 }
