@@ -1,0 +1,27 @@
+/*.btn-menu {
+  width: 10px;
+  border: none;
+  padding: 40px;
+  background-color: inherit;
+}
+
+.btn-menu-icon{
+  font-size: 3em;
+  color: red;
+  padding: 0px;
+}*/
+
+.btn-menu{
+  background-color: inherit;
+  width: 10px;
+  padding-top: 40px;
+  margin-right: 10px;
+  font-size: 3em;
+  color: rgb(66,86,187);
+}
+
+@media (min-width: 768px) {
+  .btn-menu {
+    display: none;
+  }
+}

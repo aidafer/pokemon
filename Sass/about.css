@@ -10,39 +10,6 @@ body {
 a {
   text-decoration: none; }
 
-.modal {
-  display: none;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: white;
-  font-size: 0.9em;
-  height: 200%;
-  width: 100%;
-  background-color: rgba(64, 27, 35, 0.7);
-  position: absolute;
-  top: 0;
-  z-index: 1; }
-
-.modal-show {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.modal-content {
-  background-color: #92192f;
-  width: 80%;
-  height: 40%;
-  margin-top: -500px;
-  padding: 20px; }
-
-.modal-content h3 {
-  text-align: center; }
-
 .header-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,23 +89,6 @@ nav {
 
   .nav-small-show {
     display: none; } }
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  background-color: #4256bb; }
-
-.foot-img {
-  width: 10%; }
-
 /*.btn-menu {
   width: 10px;
   border: none;
@@ -163,4 +113,4 @@ nav {
   .btn-menu {
     display: none; } }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=about.css.map */

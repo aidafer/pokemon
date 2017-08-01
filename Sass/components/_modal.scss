@@ -1,0 +1,30 @@
+.modal {
+  display: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.9em;
+  height: 200%;
+  width: 100%;
+  background-color: rgba(64, 27, 35, 0.7);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.modal-show {
+  display: flex;
+}
+
+.modal-content{
+  background-color: rgb(146, 25, 47);
+  width: 80%;
+  height: 40%;
+  margin-top: -500px;
+  padding: 20px;
+}
+
+.modal-content h3{
+ text-align: center;
+}

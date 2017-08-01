@@ -2,11 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pokenon</title>
+    <title>Pokemon</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta name="viewport" width="device-width">
     <link rel="stylesheet" href="Sass/index.css">
-    <link rel="stylesheet" href="Sass/modal.css">
     <link rel="icon" type="image/png" href="images/favicon.png" alt="Favicon pokeball" />
   </head>
   <body>
@@ -15,11 +14,11 @@
     <header>
 
         <div class="header-content">
-          <a href="#"><img src="images/pokemon.jpg" alt="Logo"></a>
+          <a href="index.html"><img class="logo" src="images/Pokemon_logo.png" alt="Logo"></a>
 
           <ul class="nav">
-            <li><a class="nav-small-link" href="#">Pokemon</a></li>
-            <li><a class="nav-small-link" href="#">Acerca de...</a></li>
+            <li><a class="nav-small-link" href="index.html">Pokemon</a></li>
+            <li><a class="nav-small-link" href="about.html">Acerca de...</a></li>
           </ul>
 
           <button class="btn-menu btn-menu-icon" type="button" name="button">
@@ -28,40 +27,47 @@
           </div>
 
         <ul class="nav-small">
-          <li class="nav-small-item"><a class="nav-small-link" href="#">Pokemon</a></li>
-          <li class="nav-small-item"><a class="nav-small-link" href="#">Acerca de...</a></li>
+          <li class="nav-small-item"><a class="nav-small-link" href="index.html">Pokemon</a></li>
+          <li class="nav-small-item"><a class="nav-small-link" href="about.html">Acerca de...</a></li>
         </ul>
 
     </header>
 
-    <h1>Pokemon</h1>
+     <h1>Pokemon</h1>
 
 
-    <div class="cards-container">
+     <div class="cards-container">
 
     </div>
 
-  <div class="info">
-    <a href="#">¿De dónde sacáis los datos?</a>
-  </div>
-  <div class="modal">
-  <div class="modal-content">
-    <h3>¿Que es esto?</h3>
-  <p>
+    <footer>
+     <div class="footer">
+
+     <div class="info">
+      <a href="#">¿De dónde sacáis los datos?</a>
+    </div>
+    <div class="modal">
+     <div class="modal-content">
+       <h3>¿Que es esto?</h3>
+     <p>
     Este sitio web ofrece una interfaz RESTful API a objetos altamente detallados construidos a partir de miles de líneas de datos relacionados con Pokémon . Cubrimos específicamente la franquicia de videojuegos, aunque nos gustaría cubrir el juego de cartas también. Usando este sitio web puedes consumir información sobre Pokémon, sus movimientos, habilidades, tipos, grupos de huevos y mucho más.
-  </p>
-  <h3>¿Qué es exactamente una API?</h3>
-<p>
-  Esto es probablemente vale la pena aclarar muy rápidamente para aquellos que no saben.
-  Una API (Application Programming Interface) es un conjunto de interfaces (en este caso, url links) que están disponibles públicamente, que permiten a los desarrolladores interactuar con una aplicación.
-  En este caso; La aplicación es una base de datos de miles de objetos oc relacionados con pokemon
-</p>
+     </p>
+     <h3>¿Qué es exactamente una API?</h3>
+     <p>
+    Esto es probablemente vale la pena aclarar muy rápidamente para aquellos que no saben.
+    Una API (Application Programming Interface) es un conjunto de interfaces (en este caso, url links) que están disponibles públicamente, que permiten a los desarrolladores interactuar con una aplicación.
+    En este caso; La aplicación es una base de datos de miles de objetos oc relacionados con pokemon
+     </p>
 
-    <div class="btn-close">
-      <button type="button" name="button">cerrar</button>
+       <div class="btn-close">
+         <button type="button" name="button">cerrar</button>
+       </div>
+     </div>
     </div>
-  </div>
-  </div>
+
+    <a href="index.html"><img class="foot-img" src="images/pokeballs.png" alt="Logo"></a>
+    </div>
+  </footer>
 
 
    <script type="text/javascript" src="js/menu.js"></script>
