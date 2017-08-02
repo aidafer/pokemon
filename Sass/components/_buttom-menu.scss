@@ -1,23 +1,11 @@
-/*.btn-menu {
-  width: 10px;
-  border: none;
-  padding: 40px;
-  background-color: inherit;
-}
-
-.btn-menu-icon{
-  font-size: 3em;
-  color: red;
-  padding: 0px;
-}*/
-
 .btn-menu{
   background-color: inherit;
-  width: 10px;
+  width: 50px;
   padding-top: 40px;
-  margin-right: 10px;
+  padding-left: 10px;
   font-size: 3em;
-  color: rgb(66,86,187);
+  color: rgb(243,208,25);
+  border: none;
 }
 
 @media (min-width: 768px) {
