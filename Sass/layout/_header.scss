@@ -22,7 +22,6 @@
 
 .nav-small-show {
   display: block;
-  //position: fixed;
   background-color: rgba(66,86,187, 0.8);
   z-index: 1;
   width: 30%;
@@ -32,14 +31,11 @@
 
 .nav-small-link {
   text-decoration: none;
-}nav {
-    display: block;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    width: 70%;
   }
 
+.nav {
+    display: none;
+  }
 
 .nav-small-item {
   list-style: none;
@@ -58,8 +54,18 @@
     list-style: none;
     width: 70%;
     }
-    
+
+  .nav li{
+    color: #ffffff;
+    background-color: inherit;
+    }
+
   .nav-small-show{
     display: none;
     }
+
+  .nav-small li{
+    color: #ffffff;
+    background-color: inherit;
+  }
 }

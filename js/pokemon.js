@@ -24,18 +24,18 @@ function refreshWeb(request){
   if(request.status >= 200 && request.status < 400) {
     var data = JSON.parse(request.responseText);
     var container = document.querySelector('.cards-container');
-    var pokemonHtml = '';
-    container.innerHTML += '<div class="one-card"><p><img src="' + data.sprites.front_default +'"><img src="' + data.sprites.back_default +'"></p>' ;
-    container.innerHTML += '<p>Nombre: ' + data.name +'</p>';
-    container.innerHTML += '<p>Nº: ' + data.id +'</p>';
-    container.innerHTML += '<p>Peso: ' + data.weight +'</p>';
+    var pokemonCard = '';
+    pokemonCard += '<div class="one-card"><p><img src="' + data.sprites.front_default +'"><img src="' + data.sprites.back_default +'"></p>' ;
+    pokemonCard += '<p>Nombre: ' + data.name +'</p>';
+    pokemonCard += '<p>Nº: ' + data.id +'</p>';
+    pokemonCard += '<p>Peso: ' + data.weight +'</p>';
     var types = data.types;
     if(types.length === 1){
-      container.innerHTML += '<p>Tipo: ' + types[0].type.name +'</p></div>';
+      pokemonCard += '<p>Tipo: ' + types[0].type.name +'</p></div>';
     } else {
-      container.innerHTML += '<p>Tipo: ' + types[0].type.name + ' / ' + types[1].type.name +'</p></div>';
+      pokemonCard += '<p>Tipo: ' + types[0].type.name + ' / ' + types[1].type.name +'</p></div>';
     }
-    container.innerHTML += pokemonHtml;
+    container.innerHTML += pokemonCard;
   } else {
     console.log('Error del servidor, puede que el archivo no exista o que se haya producido un error interno en el servidor');
   }
